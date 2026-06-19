@@ -198,13 +198,13 @@ error
 Current API endpoint:
 
 ```text
-http://91.194.2.215:8088
+http://ip:8088
 ```
 
 Example:
 
 ```text
-http://91.194.2.215:8088/submit
+http://ip:8088/submit
 ```
 
 Future versions may use a domain name instead of a direct IP address.
