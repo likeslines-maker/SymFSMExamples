@@ -233,7 +233,7 @@ examples/example.py
 
 # Website
 
-https://principium.pro
+https://principium.pro/symfsm/
 
 ---
 
