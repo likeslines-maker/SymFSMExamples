@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 class Program
 {
     // API server IP address (change here later to signature/domain)
-    private static string apiIp = "91.194.2.215";
+    private static string apiIp = "ip";
 
     private static string baseUrl = $"http://{apiIp}:8088";
 
