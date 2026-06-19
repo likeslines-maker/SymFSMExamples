@@ -1,7 +1,7 @@
 import requests
 import time
 
-API_IP = "91.194.2.215"
+API_IP = "ip"
 BASE_URL = f"http://{API_IP}:8088"
 
 prompt = "Generate 10 business ideas for the artificial intelligence industry"
