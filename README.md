@@ -216,7 +216,7 @@ Future versions may use a domain name instead of a direct IP address.
 See:
 
 ```text
-examples/csharp/Program.cs
+examples/Program.cs
 ```
 
 ---
@@ -226,7 +226,7 @@ examples/csharp/Program.cs
 See:
 
 ```text
-examples/python/example.py
+examples/example.py
 ```
 
 ---
