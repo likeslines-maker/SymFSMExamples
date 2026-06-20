@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 class Program
 {
     // API server IP address (change here later to signature/domain)
-    private static string apiIp = "ip SymFSM Server";
+    private static string apiIp = "ip SymFSM Server https://principium.pro/symfsm/";
 
     private static string baseUrl = $"http://{apiIp}:8088";
 
