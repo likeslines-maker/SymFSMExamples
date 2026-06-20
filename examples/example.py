@@ -1,7 +1,7 @@
 import requests
 import time
 
-API_IP = "ip"
+API_IP = "ip SymFSM Server - https://principium.pro/symfsm/"
 BASE_URL = f"http://{API_IP}:8088"
 
 prompt = "Generate 10 business ideas for the artificial intelligence industry"
