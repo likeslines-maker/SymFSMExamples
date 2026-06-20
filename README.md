@@ -41,6 +41,37 @@ Verification
    ↓
 Answer
 ```
+# 🧪 Experiment: SymFSM vs Standard LLM on GPQA Main
+
+We conducted a controlled experiment to evaluate the impact of SymFSM on reasoning performance.
+
+## Setup
+
+- **Same model** used in both modes  
+- **Benchmark:** GPQA Main – 448 challenging multiple-choice questions from biology, physics, and chemistry  
+- **Two modes:**
+  1. **Standard LLM generation** – direct answer generation without additional reasoning control  
+  2. **LLM + SymFSM** – generation with SymFSM reasoning control enabled (cognitive maps, reachability checks, and repair mechanics)
+
+---
+
+## Results
+
+| Mode | Correct | Accuracy | Improvement |
+|------|---------|----------|-------------|
+| Standard LLM | 282 / 448 | **62.95%** | – |
+| LLM + SymFSM | 314 / 448 | **70.09%** | **+7.14 p.p.** |
+
+---
+
+## Key Takeaway
+
+Applying SymFSM increased accuracy by **7.14 percentage points** on the same test dataset.
+
+This demonstrates that formal reasoning control – building a task graph, checking reachability, and repairing logical gaps *before* generation – can significantly improve LLM performance on complex reasoning tasks, without any fine‑tuning or prompt engineering.
+
+---
+
 
 Before text generation, SymFSM attempts to determine:
 
