@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 using CsvHelper;
 using CsvHelper.Configuration;
 
-const string ApiBaseUrl = "http://91.194.2.215:8088";
+const string ApiBaseUrl = "http://you_SymFSM_ip:8088";
 const string DatasetPath = "gpqa_main.csv";
 
 const int Workers = 30;
