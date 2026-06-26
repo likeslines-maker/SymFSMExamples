@@ -58,10 +58,11 @@ We conducted a controlled experiment to evaluate the impact of SymFSM on reasoni
 ## Results
 
 | Mode | Correct | Accuracy | Improvement |
-|------|---------|----------|-------------|
-| Standard LLM | 282 / 448 | **62.95%** | – |
-| LLM + SymFSM | 314 / 448 | **70.09%** | **+7.14 p.p.** |
-
+|---|---|---|---|
+| **Standard LLM** | 282 / 448 | 62.95% | — |
+| **LLM + SymFSM v1.0** | 314 / 448 | 70.09% | +7.14 p.p. |
+| **LLM + SymFSM v3.0** | 333 / 448 | 74.33% | +11.38 p.p. |
+| **LLM + SymFSM v4.0** | 336 / 448 | **75.00%** | **+12.05 p.p.** |
 ---
 
 ## Key Takeaway
