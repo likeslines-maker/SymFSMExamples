@@ -60,17 +60,17 @@ We conducted a controlled experiment to evaluate the impact of SymFSM on reasoni
 | Mode | Correct | Accuracy | Improvement |
 |---|---|---|---|
 | **Standard LLM** | 282 / 448 | 62.95% | — |
-| **LLM + SymFSM v1.0** | 314 / 448 | 70.09% | +7.14 p.p. |
-| **LLM + SymFSM v3.0** | 333 / 448 | 74.33% | +11.38 p.p. |
-| **LLM + SymFSM v4.0** | 336 / 448 | 75.00% | +12.05 p.p. |
-| **LLM + SymFSM v5.0** | 340 / 448 | **75.89%** | **+12.94 p.p.** |
-| **LLM + SymFSM v6.0** | 344 / 448 | **76.79%** | **+13.84 p.p.** |
+| **LLM + SymFSM v1.0** (Verification of reasoning) | 314 / 448 | 70.09% | +7.14 p.p. |
+| **LLM + SymFSM v3.0** (Invention of solutions) | 333 / 448 | 74.33% | +11.38 p.p. |
+| **LLM + SymFSM v4.0** (Dynamic graph rewriting) | 336 / 448 | 75.00% | +12.05 p.p. |
+| **LLM + SymFSM v5.0** (Cognitive computation management) | 340 / 448 | 75.89% | +12.94 p.p. |
+| **LLM + SymFSM v6.0** (Competing thinking programs & self-evolution) | 349 / 448 | **77.90%** | **+14.95 p.p.** |
 
 ---
 
 ## Key Takeaway
 
-Applying SymFSM increased accuracy by **13.84 percentage points** on the same test dataset.
+Applying SymFSM increased accuracy by **14.95 percentage points** on the same test dataset.
 
 This demonstrates that formal reasoning control – building a task graph, checking reachability, repairing logical gaps *before* generation, and evolving the cognitive strategy itself – can significantly improve LLM performance on complex reasoning tasks, without any fine‑tuning or prompt engineering.
 
@@ -84,18 +84,17 @@ This demonstrates that formal reasoning control – building a task graph, check
 | **v3.0** | Invention of solutions | +11.38 p.p. |
 | **v4.0** | Dynamic graph rewriting | +12.05 p.p. |
 | **v5.0** | Cognitive computation management | +12.94 p.p. |
-| **v6.0** | Evolving thinking (parallel cognitive programs) | **+13.84 p.p.** |
+| **v6.0** | Competing thinking programs & self-evolution | **+14.95 p.p.** |
 
-**Total improvement from v1.0 to v6.0:** +6.70 p.p.
+**Total improvement from v1.0 to v6.0:** +7.81 p.p.
 
 ---
 
 ## What v6.0 Adds
 
-v6.0 introduces **parallel thinking programs** – the system no longer solves every problem with a single predefined approach. Instead, it simultaneously runs multiple independent cognitive strategies, compares their trajectories, selects the most effective one, and uses it to build the final solution.
+v6.0 introduces **competing thinking programs** – the system no longer solves every problem with a single predefined approach. Instead, it simultaneously runs multiple independent cognitive strategies, compares their trajectories, selects the most effective one, and uses it to build the final solution.
 
 After each request, the system saves successful cognitive paths, increases the utility of used cogs, and memorizes effective thinking recipes – accumulating not just knowledge, but **its own reasoning experience**.
-
 ---
 
 
